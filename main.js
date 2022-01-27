@@ -6,22 +6,22 @@ function check1() {
     var sum = 0;
     
     if (question1a == "y=-4.9(x-9)(x+9)") {
-        document.getElementById("textbox1").style.background = "green";
+        document.getElementById("textbox1").style.background = "pink";
         sum++;
     }
     else {
         document.getElementById("textbox1").style.background = "red";
     }
     if (question1b == "y=-4.9(x-9.5)(x+7)") {
-        document.getElementById("textbox2").style.background = "green";
+        document.getElementById("textbox2").style.background = "pink";
         sum++;
     }
     else {
         document.getElementById("textbox2").style.background = "red";
     }
     if (question1c == "Yes") {
-        document.getElementById("multc1").style.color = "green";
-        document.getElementById("multc2").style.color = "green";
+        document.getElementById("multc1").style.color = "pink";
+        document.getElementById("multc2").style.color = "pink";
         sum++;
     }
     else {
@@ -29,7 +29,7 @@ function check1() {
         document.getElementById("multc2").style.color = "red";
     }
     if (question1d == "5.8") {
-        document.getElementById("textbox3").style.background = "green";
+        document.getElementById("textbox3").style.background = "pink";
         sum++;
     }
     else {
