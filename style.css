@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width:1920px;
+    height:979px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+#titlescreen {
+    background-image: url(images/background.png);
+    background-size: 1920px 979px;
+    background-position: top left;
+}
+#classroomscreen {
+    background-image: url(images/classroom.png);
+    background-size: 1920px 979px;
+    background-position: top left;
+}
+.title {
+    display: block;
+    margin-left: 15em;
+    margin-right:auto;
+    padding-top: 22em;
+    
+}
+
+.title:hover {
+    animation: fadeOutAnimation ease 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+    50% {
+        opacity: 10%;
+        transform: scale(0.9);
+        transform-origin: center center;
+     }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+}
+
+.back {
+    display: block;
+    position: absolute;
+}
+#bclass {
+    top: 45px;
+    left: 15px;
+}
+#breview {
+    top: 4em;
+    left: 2em;
+}
+.back:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+/*Classroom functions*/
+
+.doors {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex: 1;
+    margin-left: 30em;
+    margin-right:auto;
+    padding-top: 16em;
+    float: right;
+    left: 4cm;
+    position: absolute;
+   
+}
+#door1 {
+    
+}
+#door1:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+#door2 {
+    padding-top: 1em;
+    margin: 60px;
+}
+#door2:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+#door3 {
+    padding-top: 8em;
+}
+#door3:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+#door4 {
+    margin-left: 25em;
+    padding-top: 6em;
+}
+#door4:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hoverAni {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 10%;
+     }
+    100% {
+        opacity: 1;
+    }
+}
+
+.posters {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15em;
+    float: left;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+.posterss {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0em;
+    float: left;
+}
+
+#poster1 {
+    
+}
+#poster1:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+#poster2 {
+    padding-top: 1.1em;
+    margin: 10px;
+}
+#poster2:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+#poster3 {
+
+}
+#poster3:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+#poster4 {
+    margin:0px;
+    margin-left: 1em;
+}
+#poster4:hover {
+    animation: hoverAni ease 1s;
+    animation-iteration-count: infinite;
+}
+/* 
+Review 1
+*/
+#bar {
+    width: 100%;
+    height: 2.1em;
+    text-align: center;
+    line-height: 2em;
+    font-size: 7em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.info {
+    font-family: 'Poppins', sans-serif;
+    margin: 2em 25em 0 25em;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.8em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+    font-size: 2.2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ol {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:black;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+.r1 ol{
+    color: rgb(63, 91, 252);
+}
+.r1 h1 {
+    color: rgb(70, 73, 163);
+}
+.r2 ol{
+    color: rgb(175, 68, 100);
+}
+.r2 h1 {
+    color: rgb(95, 27, 47);
+}
+.r3 ol{
+    color: rgb(55, 136, 165);
+}
+.r3 h1{
+    color: rgb(22, 76, 95);
+}
+.r4 ol{
+    color: rgb(186, 176, 37);
+}
+.r4 h1{
+    color: rgb(167, 117, 43);
+}
