@@ -1,39 +1,39 @@
-function check1() {
-    var question1a = document.quiz.question1a.value;
-    var question1b = document.quiz.question1b.value;
-    var question1c = document.quiz.question1c.value;
-    var question1d = document.quiz.question1d.value;
+function check11() {
+    var question11a = document.quiz.question11a.value;
+    var question11b = document.quiz.question11b.value;
+    var question11c = document.quiz.question11c.value;
+    var question11d = document.quiz.question11d.value;
     var sum = 0;
     
-    if (question1a == "y=-4.9(x-9)(x+9)") {
-        document.getElementById("textbox1").style.background = "green";
+    if (question11a == "y=-4.9(x-9)(x+9)") {
+        document.getElementById("textbox11a").style.background = "green";
         sum++;
     }
     else {
-        document.getElementById("textbox1").style.background = "red";
+        document.getElementById("textbox11a").style.background = "red";
     }
-    if (question1b == "y=-4.9(x-9.5)(x+7)") {
-        document.getElementById("textbox2").style.background = "green";
+    if (question11b == "y=-4.9(x-9.5)(x+7)") {
+        document.getElementById("textbox11b").style.background = "green";
         sum++;
     }
     else {
-        document.getElementById("textbox2").style.background = "red";
+        document.getElementById("textbox11b").style.background = "red";
     }
-    if (question1c == "Yes") {
-        document.getElementById("multc1").style.color = "green";
-        document.getElementById("multc2").style.color = "green";
+    if (question11c == "Yes") {
+        document.getElementById("mc11c").style.color = "green";
+        document.getElementById("mc11c").style.color = "green";
         sum++;
     }
     else {
-        document.getElementById("multc1").style.color = "red";
-        document.getElementById("multc2").style.color = "red";
+        document.getElementById("mc11c").style.color = "red";
+        document.getElementById("mc11c").style.color = "red";
     }
-    if (question1d == "5.8") {
-        document.getElementById("textbox3").style.background = "green";
+    if (question11d == "5.8") {
+        document.getElementById("textbox11d").style.background = "green";
         sum++;
     }
     else {
-        document.getElementById("textbox3").style.background = "red";
+        document.getElementById("textbox11d").style.background = "red";
     }
 
     if (sum == 4) {
@@ -46,7 +46,7 @@ function check1() {
     }
 }
 
-function check2() {
+function check12() {
     var question2a = document.quiz.question1a.value;
     var question2b = document.quiz.question1b.value;
 }
