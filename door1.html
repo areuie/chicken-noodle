@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src = "main.js"></script>
     <title>Gr 11 MathCaching</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,23 +21,44 @@
         <br><br><br>
         <h1>Clue 1:</h1>
         <ol>
+            <a href="images/TxtAns.txt" tabindex="-1" target="_blank"><strong>Copy/paste Answers to ALL Clues</strong></a>
+            <br>
+            <a href="images/Clue1.pdf" tabindex="-1" target="_blank"><strong>Clue 1 Cheat Sheet</strong></a>
+            <br>
+            <br>
             <li>Long, long ago, 2 Students, A and B decided to have a dive-off at the Mackenzie invisible pool. Student A jumps off an invisible beanstalk at 396.9 meters at t = 0. Then Student B jumps off an invisible beanstalk at 333.5 meters at t = 1.25 sec. Student A lands in the water 9 seconds after t = 0. Student B lands 9.5 seconds after t = 0.</li>
             <ul>
-                a) Find the quadratic function modelling Student A’s height (meters) to time (sec) in factored form.
-                <br> 
-                b) Find the quadratic function modelling Student B’s height (meters) to time (sec) in factored form.
-                <br>
-                c) Will these two students ever hit each other during the dive? 
-                <br>
-                d) If so, at what time in seconds after t = 0? If you answered no, then type “no” in the text box.
+                <form id = "quiz" name = "quiz">
+                    <p class = "questions">a) Find the quadratic function modelling Student A’s height (meters) to time (sec) in factored form. (i.e y=-2.5(x-1)(x+2))</p>
+                    <input id = "textbox1" type = "text" name = "question1a"> 
+                    <br>
+                    <p class = "questions">b) Find the quadratic function modelling Student B’s height (meters) to time (sec) in factored form. (i.e y=-2.5(x-1)(x+2))</p>
+                    <input id = "textbox2" type = "text" name = "question1b"> 
+                    <br>
+                    <p class = "questions">c) Will these two students ever hit each other during the dive?</p> 
+                    <input type = "radio" id = "mc1" name = "question1c" value = "Yes"><span id="multc1"> Yes</span><br>
+                    <input type = "radio" id = "mc1" name = "question1c" value = "No"><span id="multc2"> No</span><br>
+                    <p class = "questions">d) If so, at what time in seconds after t = 0? If you answered no, then type “no” in the text box.</p>
+                    <input id = "textbox3" type = "text" name = "question1d"> 
+                    <input id = "button" type = "button" value = " Submit :) " onclick = "check1();">
+                    <div id="after_submit">
+                        <p id="wrong">Try again :(</p>
+                        <p id="right">You got it! The first part of the link is "orange"</p>
+                    </div>
+                </form>
             </ul>
             <li>During Halloween, the Gardening Club wants to open up a pop-up tent to sell their spooky cookies. Unfortunately, the tent material is translucent, and so they must put multiple sheets to cover most of the sun. Without a cover, the brightness of the sun is 100%. The brightness of the sun decreases by 15% for each sheet layer.</li>
             <ul>
-                a) If the Gardening Club has a budget of $10 dollars for the tent material and the cost of the nth sheet of material is found using this equation:
-                <br>
+                a) If the Gardening Club has a budget of $20 dollars for the tent material and the total cost of n sheets of material is found using this equation:
+                <br><br><img src="images/image444.png" alt="square"><br><br>
                 Find the number of sheets that the Gardening Club is able to afford.
                 <br>
+                <br>
                 b) Find the percent brightness of the sun after the sheets found in a) are put on the tent.
+                <br>
+                <br>
+                <br>
+                </iframe>
             </ul>
         </ol>
     </div>

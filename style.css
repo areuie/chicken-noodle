@@ -252,3 +252,6 @@ ul {
 .r4 h1{
     color: rgb(167, 117, 43);
 }
+#after_submit{
+    visibility: hidden;
+}
